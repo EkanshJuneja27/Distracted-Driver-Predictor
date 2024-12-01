@@ -26,7 +26,7 @@ def load_all_models():
         
         # Print model summary to verify architecture
         print("CNN Model loaded successfully")
-        cnn.summary()
+        # cnn.summary()
         
         # Load sklearn models
         pca = joblib.load(pca_path)
