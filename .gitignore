@@ -1,5 +1,3 @@
-.env*
-.env
 /final_outputs
 /notebooks
 .streamlit/secrets.toml
