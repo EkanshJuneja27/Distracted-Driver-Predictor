@@ -1,0 +1,9 @@
+tensorflow
+scikit-learn
+opencv-python
+numpy
+streamlit
+pillow
+google-generativeai
+
+
