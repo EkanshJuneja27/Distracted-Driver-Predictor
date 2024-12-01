@@ -7,7 +7,7 @@ import joblib
 import os
 import cv2
 import warnings
-from dotenv import load_dotenv
+import streamlit as st
 warnings.filterwarnings('ignore')  # Suppress warnings
 
 
@@ -89,8 +89,7 @@ def predict_image(uploaded_file):
 
 
 # Configure Gemini
-load_dotenv()
-genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
+genai.configure(api_key=st.secrets["google_api_key"])
 gemini_model = genai.GenerativeModel('gemini-1.5-pro')
 
 def interpret_prediction(class_index):
