@@ -263,7 +263,7 @@ st.markdown("""
             background: linear-gradient(to right, #ff9a3c, #ffc13b); 
             -webkit-background-clip: text; 
             -webkit-text-fill-color: transparent;'>
-            Ekansh, Megha</span> 👨‍💻🚀
+            Ekansh, Megha, Dhruv, Bhagwati</span> 👨‍💻🚀
         </p>
     </div>
 """, unsafe_allow_html=True)
